@@ -2,3 +2,4 @@
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
 192.168.122.5  server1.testchris.local gitlab.testchris.local gitlab
 192.168.122.5 ansible ansible.testchris.local
+5.5.5.5 TEST5
