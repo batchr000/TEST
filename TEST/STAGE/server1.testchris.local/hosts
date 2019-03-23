@@ -1,0 +1,5 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+192.168.122.5  server1.testchris.local gitlab.testchris.local gitlab
+192.168.122.5 ansible ansible.testchris.local
+88.88.88.88  TESTSIBA siba

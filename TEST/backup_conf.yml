@@ -1,0 +1,11 @@
+- hosts: STAGE
+
+  tasks:
+    - name: copy-image
+      copy: src=script/backup_conf.sh dest=/tmp/
+
+    - name: start docker
+      shell: sh /tmp/backup_conf.sh >> /tmp/backup_conf.log
+
+    - name: delete-file
+      shell: rm -f /tmp/backup_conf.sh >> /tmp/backup_conf.log
